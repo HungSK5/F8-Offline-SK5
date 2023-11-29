@@ -1,0 +1,188 @@
+/* * {
+    margin: auto;
+} */
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+/* Best-sellr */
+.best-seller {
+    width: 100%;
+}
+
+.row {
+
+}
+
+.container {
+    text-align: center;
+}
+
+.btn {
+    justify-content: center;
+    display: flex;
+}
+
+.btn-ic button {
+    background-color: rgb(255, 202, 202);
+    color: rgb(102, 127, 150);
+    padding: 10px 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.btn-ic button:hover {
+    background-color: rgb(247, 106, 106);
+    color: aliceblue;
+}
+
+.btn-ic {
+    padding: 5px;
+}
+
+/* Top-main-prod */
+.list-products {
+    display: flex;
+    justify-content: center;
+}
+
+.item-cat-products {
+}
+
+.products {
+    width: 100%;
+}
+
+.products__banner {
+    padding: 33px 22px 0 0;
+    position: relative;
+}
+
+.tag {
+    position: absolute;
+    right: 29px;
+    top: 22px;
+    width: 55px;
+    text-align: start;
+    padding: 0 0 0 8px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    background: rgb(238, 177, 223);
+    border-radius: 22px;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    -ms-border-radius: 22px;
+    -o-border-radius: 22px;
+}
+
+.products__banner img{
+    width: 160px;
+}
+
+.banner {
+}
+
+.img-hover {
+
+}
+
+.block-hover {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 10%;
+    padding: 0 0 10px 0;
+}
+
+.products__banner:hover .block-hover{
+    display: inline;
+}
+
+.block-hover-icon {
+    justify-content: space-between;
+    margin-top: -70px;
+    justify-content: center;
+    padding: 0 0 10px 0;
+}
+
+.block-hover-icon i {
+    color: aliceblue;
+    padding: 7px 7px;
+    background: rgb(107, 63, 63);
+    border: 1px solid rgb(66, 60, 60);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.block-hover button {
+    padding: 8px 33px;
+    color: aliceblue;
+    background: rgb(233, 138, 138);
+    border: 1px solid rgb(66, 60, 60);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/* Hover img*/
+.img-hover {
+    display: none;
+}
+
+.products__banner:hover img {
+    display: none;
+}
+
+.products__banner:hover .img-hover{
+    display: inline;
+}
+
+.block-hover button:hover {
+    background: rgb(233, 186, 186);
+}
+
+/*  */
+
+.products__info {
+    margin-left: -13px;
+    padding-top: 15px;
+}
+
+.products__content {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.products__price {
+    margin-top: -10px;
+}
+
+.products__price ins{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.products__price del{
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(87, 82, 82);
+}
+
+i, button {
+    cursor: pointer;
+}
