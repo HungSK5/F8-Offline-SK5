@@ -68,11 +68,11 @@ body {
 
 .tag {
     position: absolute;
-    right: 29px;
+    right: 30px;
     top: 22px;
     width: 55px;
     text-align: start;
-    padding: 0 0 0 8px;
+    padding: 0 0 0 10px;
     font-weight: 700;
     color: rgb(255, 255, 255);
     background: rgb(238, 177, 223);
