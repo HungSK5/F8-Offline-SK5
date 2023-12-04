@@ -1,0 +1,81 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.item-hover {
+    display: flex;
+    align-items: center;
+}
+
+.ci__item__form {
+    background: red;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+
+.ci__item__form span {
+    padding-left: 50px;
+    color: #ffffff;
+}
+
+.ci__item__icon {
+    position: absolute;
+    display: flex;
+    width: 40px;
+    height: 20px;
+    line-height: 30px;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.item-icon-start {
+    display: ;
+    z-index: 1;
+}
+
+.item-icon-end {
+    display: none;
+    z-index: 1;
+}
+
+.ci__item__icon span {
+}
+
+.item-title {
+    padding-top: 15px;
+}
+
+.note-item-title {
+    display: ;
+    padding: 30px;
+    line-height: 26px;
+    border: 1px solid #ff7b7b;
+}
+
+.note-item-title::before {
+    content: "";
+    position: absolute;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid #ff7b7b;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    margin-top: -50px;
+    margin-left: -14px;
+}
+
+.ci__item__form input:checked ~ .item-icon-start {
+    display: none;
+}
+
+.ci__item__form input:checked ~ .item-icon-end {
+    display: flex;
+}
+
+.ci__item__form input:checked ~ .note-item-title {
+    display: block;
+}
