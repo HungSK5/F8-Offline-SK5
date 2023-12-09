@@ -1,0 +1,212 @@
+body {
+    font-family: 'Lemon', serif;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(http://uiwebsoft.com/justlog/login-one/images/login-bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+.container {
+    width: 100%;
+}
+
+.auth {
+    padding: 100px 300px 100px;
+}
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+}
+
+.auth-row {
+    position: relative;
+    display: flex;
+}
+
+/*  */
+.auth__register.auth__block {
+    width: 250px;
+    padding: 0 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #EB6355;
+    border-radius: 7px 0 0 7px;
+}
+
+.title-jl {
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    left: 80px;
+    bottom: 345px;
+    font-weight: 700;
+    background: #fff;
+    border-radius: 5px;
+    color: #EB6355;
+}
+
+.auth__title {
+    position: relative;
+    text-align: center;
+    color: #000000;
+}
+
+.auth__title::after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    background: #EB6355;
+    bottom: -5px;
+    margin-left: -63%;
+}
+
+.auth__title__log {
+    position: relative;
+    margin-left: 50px;
+    color: #fff;
+    margin-top: -13px;
+}
+
+.auth__login__content {
+
+}
+
+.auth__description {
+    margin-top: 5px;
+    color: #fff;
+}
+
+.auth__form__buttons {
+    margin-top: 30px;
+}
+
+.btn__large {
+    margin-top: -30px;
+    padding: 10px 30px;
+    border: 1px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px 1px #afafaf;
+    color: #EB6355;
+}
+
+.auth__icon {
+    display: flex;
+}
+
+.auth__icon__login {
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #86383852;
+    margin: 20px 8px;
+    border-radius: 5px;
+}
+
+/*  */
+.auth__login.auth__block {
+    width: 290px;
+    height: 490px;
+    padding: 0 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 0 7px 7px 0;
+    box-shadow: 1px 1px 20px 1px #afafaf;
+}
+
+.auth__contnet {
+
+}
+
+.auth__form {
+    margin-top: 30px;
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+.form-control {
+    padding: 15px 180px 15px 10px;
+    border: 1px solid #2c2c2c50;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px 1px #afafaf70;
+}
+
+/*  */
+.auth__form__options {
+
+}
+
+.form-checkbox {
+    display: flex;
+    margin-top: 10px;
+}
+
+.form-checkbox a {
+    position: absolute;
+    padding-left: 225px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.checkboxs {
+    left: -10px;
+}
+
+.btn {
+    padding: 12px 159px;
+    margin-top: -10px;
+    background: #EB6355;
+    border: 1px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.auth__large {
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.auth__icon__arrow {
+    top: 50%;
+    right: 0;
+    left: 260px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #EB6355;
+    z-index: 1;
+    position: absolute;
+    background: #ffffff;
+    border-radius: 50%;
+    box-shadow: 1px 1px 20px 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
