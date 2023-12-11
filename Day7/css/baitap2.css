@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #d8d8d8;
+    font-family: 'Asap Condensed', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 300px;
+}
+
+.profile {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.prf__banner img {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.prf__avatar img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    object-fit: cover;
+    left: 70px;
+    bottom: -48px;
+}
+
+.prf__name {
+    color: #fff;
+    position: absolute;
+    bottom: 40px;
+    left: 300px;
+    text-shadow: 2px 2px 4px #020202;
+}
+
+.prf__name p {
+    font-size: 30px;
+}
+
+.prf__name__title {
+    margin-top: 30px;
+}
+
+.prf__name__title span:first-child {
+    padding-right: 15px;
+}
+
+.prf__name__title b {
+    font-size: 20px;
+}
+
+.prf__introduce {
+    width: 100%;
+    height: 40px;
+}
+
+.item {
+    justify-content: end;
+    display: flex;
+    background-color: #fff;
+    padding-right: 100px;
+}
+
+.prf__item {
+    position: relative;
+    text-align: center;
+    padding: 15px;
+    font-weight: 500;
+}
+
+.prf__item:first-child::before {
+    position: absolute;
+    content: "";
+    width: 65px;
+    height: 4px;bottom: 6px;
+    background: #ff4646;
+}
+
+/* Bài tập 3 */
+
+.home-hot-prod {
+    width: 1400px;
+    height: 100px;
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-section {
+    position: relative;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.title-section::after {
+    position: absolute;
+    content: "";
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 1040px;
+    height: 2px;
+    background: #e9e9e9;
+}
+
+.exclusive-tabs {
+    width: 100%;
+    height: 500px;
+}
+
+.exclusive-head {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    color: #000000;
+}
+
+.exclesive-tap {
+    text-align: center;
+    background: #ffffff;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.exclesive-tap:first-child {
+    margin-left: 0;
+    background: #ffa875;
+}
+
+.exclesive-tap span {
+    font-weight: 500;
+}
+
+.exclesive-tap p {
+    font-size: 15px;
+    margin-top: 3px;
+}
+
+.exclesive-content {
+    max-height: 100px;
+    width: 120%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    position: relative;
+    padding: 20px 20px 20px 0;
+}
+
+.product img {
+    position: relative;
+    border-radius: 5px;
+    width: 480px;
+    height: 270px;
+    object-fit: cover;
+}
+
+.info-product {
+    position: absolute; 
+    top: 30px;
+    left: 30px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.info-product span {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.info-product p {
+    margin-top: 190px;
+}
