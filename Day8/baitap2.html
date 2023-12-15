@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart Mini</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/baitap2.css" />
+  </head>
+  <body>
+    <section class="cart">
+      <div class="cart-top">
+        <h2 class="cart-top__heading">Shopping Cart</h2>
+
+        <span class="cart-top__icon"
+          ><i class="fa-solid fa-circle-xmark"></i
+        ></span>
+      </div>
+      <div class="cart-items">
+        <article class="cart-item">
+          <!-- image -->
+          <div class="cart-item__img">
+            <img src="data:image/jpeg;base64,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" alt="iphone" />
+          </div>
+          <div class="cart-item__desc">
+            <p class="cart-item__name">Iphone XS 15 Pro Max</p>
+
+            <div class="cart-row">
+              <div class="cart-item__qnt">
+                <i class="fa-solid fa-minus"></i>
+                1
+                <i class="fa-solid fa-plus"></i>
+              </div>
+              <div class="cart-item__price">1x$570</div>
+            </div>
+          </div>
+          <span class="cart-item__icon">
+            <i class="fa-solid fa-xmark"></i>
+          </span>
+        </article>
+        <article class="cart-item">
+          <div class="cart-item__img">
+            <img src="data:image/jpeg;base64,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" alt="iphone" />
+          </div>
+          <div class="cart-item__desc">
+            <p class="cart-item__name">Iphone XS 15 Pro Max</p>
+
+            <div class="cart-row">
+              <div class="cart-item__qnt">
+                <i class="fa-solid fa-minus"></i>
+                1
+                <i class="fa-solid fa-plus"></i>
+              </div>
+              <div class="cart-item__price">1x$570</div>
+            </div>
+          </div>
+          <span class="cart-item__icon">
+            <i class="fa-solid fa-xmark"></i>
+          </span>
+        </article>
+      </div>
+      <div class="cart-subtotal">
+        <p class="cart-subtotal__label">Subtotal</p>
+        <p class="cart-subtotal__price">$920.00</p>
+      </div>
+      <div class="cart-message">Taxes and shipping calculated at checkout</div>
+      <div class="cart-btn-group">
+        <button class="cart-btn__view btn">View Cart</button>
+        <button class="cart-btn__add btn">Add to Cart</button>
+      </div>
+      <div class="cart-ship">
+        <div class="cart-ship__icon">
+          <span>
+            <i class="fa-solid fa-truck-fast"></i>
+          </span>
+        </div>
+
+        <div class="cart-ship__message">Spend $ 499.00 to Free Shipping</div>
+      </div>
+    </section>
+    <div class="overlay"></div>
+  </body>
+</html>
