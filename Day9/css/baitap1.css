@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row {
+
+}
+
+.item {
+    width: 300px;
+}
+
+.ci__item {
+    text-align: end;
+    position: relative;
+    margin-top: 70px;
+}
+
+.ci__item:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    background: #888888;
+    width: 1px;
+    height: 90px;
+    top: 30px;
+    right: -17px;
+}
+
+.ci__item label {
+    width: 300px;
+    text-align: start;
+    position: absolute;
+    margin-left: 10px;
+    top: 0;
+}
+
+.ci__item button {
+    position: absolute;
+    padding: 5px 10px;
+    border: 1px;
+    border-radius: 30px;
+    margin-top: 20px;
+    bottom: -40px;
+    right: 0;
+    font-weight: 500;
+}
+
+.ci__item button:active, button:focus {
+    color: #fff;
+    background: #775329;
+}
+
+/* buttom */
+
+.ci__item label span::before {
+    position: relative;
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid green;
+    border-radius: 50%;
+}
+
+.ci__item label span::after {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: green;
+    border-radius: 50%;
+    top: 4px;
+    left: 2px;
+}
+
+.img {
+    position: relative;
+}
+
+.banner {
+
+}
+.banner img {
+    margin-top: 70px;
+    width: 300px;
+    height: 350px;
+}
+
+.bt-banner img {
+    position: absolute;
+    bottom: -100px;
+    left: -100px;
+}

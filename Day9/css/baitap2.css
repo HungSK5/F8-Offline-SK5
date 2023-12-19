@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.container {
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.row {
+    position: relative;
+}
+
+span {
+    position: relative;
+}
+
+.blocks {
+    transition: color 0.2s ease-in-out;
+    margin: 10px;
+    z-index: 1;
+    position: relative;
+    border: 1px solid #ffbd92;
+    padding: 30px 25px;
+    width: 400px;
+    height: 250px;
+}
+
+.blocks:hover ~ .banner img,
+.blocks:hover ~ .banner::before,
+.blocks:hover .hover,
+.blocks:hover::after {
+    display: block;
+}
+
+.blocks:hover {
+    color: #fff;
+}
+
+.blocks:hover > .page-icon, .hover {
+    display: none;
+}
+
+.blocks::after {
+    display: none;
+    position: absolute;
+    content: "";
+    top: 7px;
+    left: 7px;
+    width: 380px;
+    height: 230px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.blocks .page-icon {
+    /* display: none; */
+    color: #c27958;
+    font-size: 40px;
+}
+
+.blocks h3 {
+    margin-top: 20px;
+}
+
+.blocks p {
+    margin-top: 10px;
+}
+
+.blocks span {
+    position: relative;
+}
+
+.blocks label {
+    display: block;
+    padding-top: 50px;
+}
+
+.btn-title {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.btn-icon {
+    z-index: 3;
+    padding: 5px 9px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    right: -4px;
+}
+
+.btn-icon:hover {
+    color: #000;
+    background: #fff;
+}
+
+/* .btn-icon::before {
+    position: absolute;
+    content: "";
+    width: 32px;
+    height: 32px;
+    top: -7px;
+    right: -10px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}  */
+
+
+
+.banner {
+    width: 400px;
+    height: 252px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.banner img {
+    display: none;
+    width: 400px;
+    height: 250px;
+}
+
+.banner::before {
+    display: none;
+    content: "";
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    background: #c9500079;
+}
